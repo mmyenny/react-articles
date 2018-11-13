@@ -7,6 +7,9 @@ class Article extends Component {
         <h2>{this.props.title}</h2>
         <p>
           {this.props.body}
+          <p>It is lunch time.</p>
+          <p>This is part of every article</p>
+          <p>{this.props.title}</p>
           Bacon ipsum dolor amet ham hock capicola kevin, brisket t-bone pork
           chop meatball ground round shoulder ribeye bacon. Meatloaf ground
           round bacon turkey pork belly biltong andouille tenderloin buffalo
